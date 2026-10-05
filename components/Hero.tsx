@@ -70,35 +70,7 @@ export default function Hero() {
         </p>
       </div>
 
-      {/* preview card */}
-      <div className="mt-16 w-full max-w-4xl rounded-2xl border border-slate-200 bg-white/80 p-2 shadow-xl shadow-indigo-100/60 backdrop-blur dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-none">
-        <div className="rounded-xl border border-slate-100 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-950">
-          <div className="mb-4 flex items-center gap-1.5">
-            <span className="size-2.5 rounded-full bg-red-400" />
-            <span className="size-2.5 rounded-full bg-amber-400" />
-            <span className="size-2.5 rounded-full bg-emerald-400" />
-          </div>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-            {["Revenue", "Users", "Growth"].map((label, i) => (
-              <div
-                key={label}
-                className="rounded-lg border border-slate-200 bg-white p-4 text-left shadow-sm dark:border-slate-800 dark:bg-slate-900 dark:shadow-none"
-              >
-                <p className="text-xs text-slate-500 dark:text-slate-400">{label}</p>
-                <p className="mt-1 text-xl font-semibold text-slate-900 dark:text-white">
-                  {["$48.2k", "12,480", "+24%"][i]}
-                </p>
-                <div className="mt-3 h-1.5 w-full rounded-full bg-slate-100 dark:bg-slate-800">
-                  <div
-                    className="h-1.5 rounded-full bg-gradient-to-r from-indigo-500 to-violet-500"
-                    style={{ width: ["72%", "58%", "84%"][i] }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+    
     </section>
   );
 }
