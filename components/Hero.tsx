@@ -69,8 +69,6 @@ export default function Hero() {
           Trusted by <span className="font-semibold text-slate-900 dark:text-white">10,000+</span> developers
         </p>
       </div>
-
-    
     </section>
   );
 }
