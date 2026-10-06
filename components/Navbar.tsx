@@ -17,11 +17,7 @@ export default function Navbar() {
     <header className="mx-auto flex w-full max-w-5xl items-center justify-between rounded-full border border-slate-800 bg-gray-900 px-6 py-3 md:py-4">
       <Link href="/">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/dummyLogo/prebuiltuiDummyLogo.svg"
-          alt="Logo"
-          className="invert"
-        />
+        Entree
       </Link>
 
       <nav
